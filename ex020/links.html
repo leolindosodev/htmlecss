@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando Links</title>
+    <link rel="icon" href="img/Graphicloads-Colorful-Long-Shadow-Html-tags.ico" type="image/x-icon">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover{
+            color: black;
+        }
+        a:active{
+            color: cadetblue;
+         }
+         .especial{
+            background-color: lightgray;
+         }
+        .especial::before{
+            content: '☛';
+        }
+        .especial::after{
+            content: ' ☚';
+        }
+        li{
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://github.com/gustavoguanabara" target="_blank" rel="external">Meu repositorio no GitHub</a></li>
+        <li>Conhecer mais sobre os padrões, visite o <a href="https://www.w3c.br" target="_blank" rel="external">site da W3C</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external" class="especial">Site do Curso em Video</a></li>
+    </ul>
+</body>
+</html>

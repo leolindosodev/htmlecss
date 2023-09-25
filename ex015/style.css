@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+body{
+    background-color: rgb(44, 157, 157);
+    
+}
+h1{
+    color: rgb(11, 23, 240);
+    background-color: rgb(138, 155, 193);
+    margin: 1.1em 0;
+}
+h2{
+    color: rgb(200, 61, 61);
+    margin: 0.5em 0;
+}
+p{
+    text-align: justify;
+}

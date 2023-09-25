@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(17, 64, 145, 0.347);
+}
+body h2:nth-child(3){
+    color: white;
+    background-color: rgba(166, 0, 255, 0.279);
+}
+/*body{ REPRESENTAÇÃO POR HSL (HUE, SATURATION, LUMINOSITY)
+    background-color: hsl(hue, saturation, lightness);
+
+
+
+ }*/
