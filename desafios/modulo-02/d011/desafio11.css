@@ -9,9 +9,16 @@ body{
     background-color: var(--corFundo);
 }
 .conteiner {
+    position: relative;
     height: 100vh;
-    background: url(imagens/espaco.jpg);/*Quando é Background-image, precisa definir uma altgura para poder o pegar o gradiente*/
+    background-image: url(imagens/espaco.jpg);/*Quando é Background-image, precisa definir uma altgura para poder o pegar o gradiente*/
+    background-size: 100% 100%;
 }
-.conteiner img{
-    
+.conteudo{
+    position: absolute;
+    background-image: url(imagens/astronauta.png);
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
