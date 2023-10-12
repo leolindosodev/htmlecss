@@ -24,7 +24,6 @@ a:hover{
 }
 p{
     font-family: var(--fontAlternativa);
-    font-size: 4em;
 }
 header{
     background-color: black;
@@ -40,7 +39,6 @@ header > h1 {
 }
 header > p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
     font-weight: normal;
     padding-bottom: 50px;
 }
@@ -49,9 +47,13 @@ main{
     font-family: var(--fontAlternativa);
 }
 article{
-    font-size: .8vw;
-    margin-bottom: 5em;
-    padding: 50px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+article > p{
+    
 }
 .conteudo{
     width: 50%;
@@ -59,12 +61,14 @@ article{
     background-color: rgba(0, 0, 0, 0.23);
     text-shadow: 1px 1px 0px black;
 }
+.conteudo > p{
+    width: 400px;
+}
 #fundo1{
     
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 #fundo2{
     color: white;
