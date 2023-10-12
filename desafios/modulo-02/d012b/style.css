@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+:root{
+    --fontPadrao: Arial, Helvetica, sans-serif;
+    --fontAlternativa: 'Sriracha', cursive;
+    --fontTitle: 'Passion One', cursive;
+}
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +11,7 @@
 html, body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: var(--fontPadrao);
 }
 header {
     background-color: black;
@@ -14,6 +21,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps; 
+    font-family: var(--fontTitle);
+    font-size: 10vw;
 }
 header > p{
     padding-bottom: 50px;
@@ -32,9 +41,11 @@ section {
      padding-bottom: 10vh;
      line-height: 2em;
      padding-left: 30px;
+     font-family: var(--fontAlternativa);
+     font-size: 3.5vw;
 }
 .imagem > p{
-    width: 400px;
+    display: inline-block; /*A caixa se adapta ao tamanho do conteudo*/
     background-color: rgba(0, 0, 0, 0.253);
 }
 .normal{

@@ -2,7 +2,7 @@
 font-family: 'Sriracha', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 :root{
-    --fontPadrao: Arial, Helvetica, sans-serif;
+    --fontPadrao: Verdana, Geneva, Tahoma, sans-serif;
     --fontAlternativa: 'Sriracha', cursive;
     --fontTitle: 'Passion One', cursive;
 }
