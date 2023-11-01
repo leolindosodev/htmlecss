@@ -1,2 +1,2 @@
 Os dados foram enviados !
-Aprenda PHP com Gustavo Guanabara.
+Aprenda PHP com Gustavo Guanabara
