@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="GET" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <p><!--É necessário que o "name" no botão radio seja o mesmo para todos, evitando se marcado duas opções(Se fizerem parte do mesmo grupo)-->
+                <input type="radio" name="sexo" id="imasc" checked> <label for="imasc">Masculino</label><br>
+                <input type="radio" name="sexo" id="ifemi"> <label for="ifemi">Feminino</label>
+            </p>
+
+        </fieldset>
+        <fieldset><!--Serve para agrupar dados-->
+            <legend>Esportes Favoritos</legend><!--Legenda para o fieldset-->
+            <p>
+                <input type="checkbox" name="esfut" id="iesfut"checked> <label for="iesfut">Futebol</label> <br>
+                <input type="checkbox" name="esbasq" id="iesbasq"> <label for="iesbasq">Basquete</label> <br>
+                <input type="checkbox" name="eshand" id="ieshand"> <label for="ieshand">Handebol</label> <br>
+                <input type="checkbox" name="esvolei" id="iesvolei"> <label for="iesvolei">Vôlei</label> <br>
+            </p>
+        </fieldset>
+        <!--Estudar mais sobre RegEx-->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar ">
+        </p>
+    </form>
+</body>
+</html>
